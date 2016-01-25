@@ -23,15 +23,13 @@ public class NPCScratch extends Game {
 
     @Override
     public void create() {
-        atlasTest = new TextureAtlas("npcpack.pack");
+        atlasTest = new TextureAtlas("npc.pack");
         skin = new Skin(atlasTest);
 
         stage = new Stage();
         Gdx.input.setInputProcessor(stage);
 
         batch = new SpriteBatch();
-
- 
         imgButtonStyle = new ImageButton.ImageButtonStyle();
         imgButtonStyle.up = skin.getDrawable("CygnusAsleep");
        imgButtonStyle.over = skin.getDrawable("CygnusAwake");
@@ -40,7 +38,7 @@ public class NPCScratch extends Game {
         imgButton.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                System.out.println("test");
+               System.out.println("test");
             }
         });
 
