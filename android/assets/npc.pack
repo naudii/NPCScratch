@@ -1,0 +1,26 @@
+
+npc.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+CygnusAsleep
+  rotate: false
+  xy: 1, 1
+  size: 258, 200
+  orig: 258, 200
+  offset: 0, 0
+  index: -1
+CygnusAwake
+  rotate: false
+  xy: 261, 1
+  size: 258, 200
+  orig: 258, 200
+  offset: 0, 0
+  index: -1
+CygnusText
+  rotate: false
+  xy: 521, 141
+  size: 258, 60
+  orig: 258, 60
+  offset: 0, 0
+  index: -1
